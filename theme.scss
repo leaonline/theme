@@ -87,6 +87,21 @@ $theme-colors: (
   }
 }
 
+/* ------- end customization -------- */
+
+/* finally, import Bootstrap to set the changes! */
+@import "{}/node_modules/bootstrap/scss/bootstrap.scss";
+
+/* ------- override defaults -------- */
+
+a {
+  color: #183B5D;
+}
+
+a:hover {
+  color: #ACACAC;
+}
+
 .border-gray {
   border: solid $lea-gray !important;
 }
@@ -94,16 +109,3 @@ $theme-colors: (
 .card {
   border-radius: 0px !important;
 }
-
-a {
-  color: #183B5D !important;
-}
-
-a:hover {
-  color: #ACACAC !important;
-}
-
-/* -------end customization-------- */
-
-/* finally, import Bootstrap to set the changes! */
-@import "{}/node_modules/bootstrap/scss/bootstrap.scss";
