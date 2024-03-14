@@ -2,6 +2,8 @@
 
 This package adds the official leaonline bootstrap scss theme to a project.
 
+[![DOI](https://zenodo.org/badge/265558336.svg)](https://zenodo.org/doi/10.5281/zenodo.10817539)
+
 
 ## Installation
 
